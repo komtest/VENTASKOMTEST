@@ -429,6 +429,8 @@ function showTechSheet(machine) {
 
         <div class="footer">
             <p><strong>KOMTEST AMERICA</strong></p>
+            <p>Diesel Injection Service | Miguel Sanchez | +593 99 341 4331</p>
+            <p>Via Quevedo km 2 1/2, Santo Domingo de los Tsachilas, Ecuador</p>
             <p>www.komtest.net | info@komtest.net | +90 212 555 01 02</p>
             <p>Organize Sanayi Bölgesi, Turgut Özal Cad. No: 15, 34555 Estambul, Turquía</p>
             <p style="margin-top: 10px; font-size: 10px; color: #999;">
@@ -602,7 +604,7 @@ document.getElementById('btn-generate').onclick = function() {
         <div style="margin-top: 30px; text-align: center; font-size: 12px; color: #666;">
           <p><strong>KOMTEST AMERICA</strong></p>
           <p>Diesel Injection Service | Miguel Sanchez | +593 99 341 4331</p>
-          <p>Via Quevedo km 2 1/2, Santo Domingo de los Tsachinas, Ecuador</p>
+          <p>Via Quevedo km 2 1/2, Santo Domingo de los Tsachilas, Ecuador</p>
           <p>www.komtest.net | info@komtest.net | +90 212 555 01 02</p>
           <p>Organize Sanayi Bölgesi, Turgut Özal Cad. No: 15, 34555 Estambul, Turquía</p>
         </div>
@@ -677,3 +679,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 });
+
