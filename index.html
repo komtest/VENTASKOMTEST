@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KOMTEST - Equipos de Prueba</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0056b3" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <h1>KOMTEST<span>®</span></h1>
+    <p>Bancos de prueba para inyectores y bombas diesel</p>
+  </header>
+
+  <main>
+    <section id="machines-list">
+      <h2>Modelos disponibles</h2>
+      <div id="machines-container"></div>
+    </section>
+
+    <section id="machine-detail" class="hidden">
+      <button id="btn-back">&larr; Volver</button>
+      <div id="machine-info"></div>
+      <h3>Accesorios incluidos</h3>
+      <div id="standard-accessories"></div>
+      <h3>Accesorios opcionales</h3>
+      <div id="optional-accessories"></div>
+      <button id="btn-tech-sheet">Ficha Técnica (PDF)</button>
+      <button id="btn-generate">Generar Proforma</button>
+    </section>
+
+    <section id="proforma-view" class="hidden">
+      <button id="btn-back-proforma">&larr; Volver</button>
+      <div id="proforma-content"></div>
+      <button id="btn-print">Imprimir / PDF</button>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

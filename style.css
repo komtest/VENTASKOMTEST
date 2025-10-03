@@ -1,0 +1,88 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #0056b3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 { margin: 0; }
+header span { color: #ffcc00; }
+
+.hidden { display: none; }
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 1rem;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.card:hover { transform: translateY(-4px); }
+.card img { max-width: 100%; height: auto; border-radius: 8px; margin: 0.8rem 0; }
+
+.accessory {
+  display: inline-block;
+  width: 130px;
+  margin: 0.6rem;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+.accessory img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+.accessory.selected img { border-color: #0056b3; }
+.accessory p { font-size: 0.85rem; margin-top: 0.4rem; }
+
+#proforma-content, #machine-info {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+#proforma-content h2, #machine-info h2 {
+  color: #0056b3;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+button {
+  background: #0056b3;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+button:hover { background: #003d82; }
+
+ul { padding-left: 1.4rem; margin: 0.8rem 0; }
+li { margin: 0.3rem 0; }
+
+form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+form input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
