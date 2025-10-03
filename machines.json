@@ -1,0 +1,304 @@
+[
+  {
+    "id": "cri-2100",
+    "name": "CRI-2100 Test Bench",
+    "type": "Common Rail Injector (1 channel)",
+    "description": "Banco de pruebas para inyectores Common Rail de nueva generación. Diseñado para no ocupar espacio útil.",
+    "image": "assets/machines/cri-2100.jpg",
+    "weight": "450 kg",
+    "dimensions": { "width": 125, "height": 150, "length": 75 },
+    "pressureRange": "200–2500 bar",
+    "testTime": "< 8 minutos",
+    "temperatureControl": "Manual o automático (±1°C)",
+    "channels": 1,
+    "compatibleInjectors": [
+      "Bosch 110 CRI", "Bosch 120 CRIN (opcional)",
+      "Delphi", "Delphi Piezzo", "Delphi Volvo Smart (opcional)",
+      "Delphi DAF Smart (opcional)", "Delphi Mercedes Smart (opcional)",
+      "Denso", "Denso Piezzo", "Siemens Piezzo",
+      "Cummins QSK (opcional)", "Cummins ISX CR (opcional)",
+      "Cummins ISL (opcional)", "Cummins ISG (opcional)",
+      "Cummins India (opcional)", "L'Orange (opcional)",
+      "L'Orange MTU (opcional)", "CAT-PERKINS C4.2–C9.3 (opcional)"
+    ],
+    "standardAccessories": [
+      { "id": "std-01", "name": "Adaptadores de conectores estándar", "price": 0, "image": "assets/accessories/connector-adapters.jpg" },
+      { "id": "std-02", "name": "Manguera de prueba de presión", "price": 0, "image": "assets/accessories/pressure-hose.jpg" },
+      { "id": "std-03", "name": "Cable inyector Bosch", "price": 0, "image": "assets/accessories/bosch-cable.jpg" },
+      { "id": "std-04", "name": "Cable inyector Delphi Euro 4/5", "price": 0, "image": "assets/accessories/delphi-cable.jpg" },
+      { "id": "std-05", "name": "Cable inyector Piezzo Bosch", "price": 0, "image": "assets/accessories/bosch-piezzo-cable.jpg" },
+      { "id": "std-06", "name": "Cable inyector Piezzo Siemens", "price": 0, "image": "assets/accessories/siemens-piezzo-cable.jpg" },
+      { "id": "std-07", "name": "Cable inyector Denso", "price": 0, "image": "assets/accessories/denso-cable.jpg" },
+      { "id": "std-08", "name": "Cable en Y de 2 pines", "price": 0, "image": "assets/accessories/y-joint-cable.jpg" },
+      { "id": "std-09", "name": "Cable válvula DRV", "price": 0, "image": "assets/accessories/drv-valve-cable.jpg" },
+      { "id": "std-10", "name": "Manguera de retroceso", "price": 0, "image": "assets/accessories/backleak-hose.jpg" },
+      { "id": "std-11", "name": "Adaptadores de retorno de inyectores", "price": 0, "image": "assets/accessories/injector-return-adaptors.jpg" },
+      { "id": "std-12", "name": "Acoplamientos L 12–14 mm", "price": 0, "image": "assets/accessories/couplings.jpg" },
+      { "id": "std-13", "name": "Llave de montaje de ranura del inyector", "price": 0, "image": "assets/accessories/mounting-key.jpg" }
+    ],
+    "optionalAccessories": []
+  },
+  {
+    "id": "cri-2300",
+    "name": "CRI-2300 Test Bench",
+    "type": "Common Rail Injector (4 channels)",
+    "description": "Banco de pruebas con 4 canales. Puede probar 4 inyectores simultáneamente o por separado.",
+    "image": "assets/machines/cri-2300.jpg",
+    "weight": "500 kg",
+    "dimensions": { "width": 140, "height": 150, "length": 75 },
+    "pressureRange": "200–2500 bar",
+    "testTime": "< 8 minutos",
+    "temperatureControl": "Manual o automático (±1°C)",
+    "channels": 4,
+    "compatibleInjectors": [
+      "Bosch 110 CRI", "Bosch 120 CRIN (opcional)",
+      "Delphi", "Delphi Piezzo", "Delphi Volvo Smart (opcional)",
+      "Delphi DAF Smart (opcional)", "Delphi Mercedes Smart (opcional)",
+      "Denso", "Denso Piezzo", "Siemens Piezzo",
+      "Cummins QSK (opcional)", "Cummins ISX CR (opcional)",
+      "Cummins ISL (opcional)", "Cummins ISG (opcional)",
+      "Cummins India (opcional)", "L'Orange (opcional)",
+      "L'Orange MTU (opcional)", "CAT-PERKINS C4.2–C9.3 (opcional)"
+    ],
+    "standardAccessories": [
+      { "id": "std-201", "name": "Adaptadores de conectores estándar", "price": 0, "image": "assets/accessories/connector-adapters.jpg" },
+      { "id": "std-202", "name": "Manguera de prueba de presión", "price": 0, "image": "assets/accessories/pressure-hose.jpg" },
+      { "id": "std-203", "name": "Cable inyector Bosch", "price": 0, "image": "assets/accessories/bosch-cable.jpg" },
+      { "id": "std-204", "name": "Cable inyector Delphi Euro 4/5", "price": 0, "image": "assets/accessories/delphi-cable.jpg" },
+      { "id": "std-205", "name": "Cable inyector Piezzo Bosch", "price": 0, "image": "assets/accessories/bosch-piezzo-cable.jpg" },
+      { "id": "std-206", "name": "Cable inyector Piezzo Siemens", "price": 0, "image": "assets/accessories/siemens-piezzo-cable.jpg" },
+      { "id": "std-207", "name": "Cable inyector Denso", "price": 0, "image": "assets/accessories/denso-cable.jpg" },
+      { "id": "std-208", "name": "Cable en Y de 2 pines", "price": 0, "image": "assets/accessories/y-joint-cable.jpg" },
+      { "id": "std-209", "name": "Cable válvula DRV", "price": 0, "image": "assets/accessories/drv-valve-cable.jpg" },
+      { "id": "std-210", "name": "Manguera de retroceso", "price": 0, "image": "assets/accessories/backleak-hose.jpg" },
+      { "id": "std-211", "name": "Adaptadores de retorno", "price": 0, "image": "assets/accessories/injector-return-adaptors.jpg" },
+      { "id": "std-212", "name": "Acoplamientos L 12–14 mm", "price": 0, "image": "assets/accessories/couplings.jpg" },
+      { "id": "std-213", "name": "Llave de collarín", "price": 0, "image": "assets/accessories/collarin-key.jpg" }
+    ],
+    "optionalAccessories": []
+  },
+  {
+    "id": "cripump-2200",
+    "name": "CRIPUMP-2200 Test Bench",
+    "type": "Injector + Pump (1 channel)",
+    "description": "Banco de pruebas para inyectores y bombas Common Rail. Sistema plug-and-play para bombas.",
+    "image": "assets/machines/cripump-2200.jpg",
+    "weight": "500 kg",
+    "dimensions": { "width": 140, "height": 150, "length": 75 },
+    "pressureRange": "200–2500 bar",
+    "testTime": "< 8 minutos",
+    "temperatureControl": "Manual o automático (±1°C)",
+    "channels": 1,
+    "compatibleInjectors": [
+      "Bosch 110 CRI", "Bosch 120 CRIN (opcional)",
+      "Delphi", "Delphi Piezzo", "Delphi Volvo Smart (opcional)",
+      "Delphi DAF Smart (opcional)", "Delphi Mercedes Smart (opcional)",
+      "Denso", "Denso Piezzo", "Siemens Piezzo",
+      "Cummins QSK (opcional)", "Cummins ISX CR (opcional)",
+      "Cummins ISL (opcional)", "Cummins ISG (opcional)",
+      "Cummins India (opcional)", "L'Orange (opcional)",
+      "L'Orange MTU (opcional)", "CAT-PERKINS C4.2–C9.3 (opcional)"
+    ],
+    "compatiblePumps": [
+      "Bosch CP1–CP4", "Bosch CP2/CPN5/CB18/CB28 (opcional)",
+      "Delphi DFP1–DFP7", "Delphi DFP5/DFP8 (opcional)",
+      "Denso HP3–HP4", "Denso HP0–HP7 (opcional)",
+      "Siemens Continental VDO", "Siemens DHP1.1 (opcional)",
+      "Cummins ISX Delphi (opcional)", "Cummins N11–N14 Bosch (opcional)",
+      "CAT-PERKINS C4.4–C6.6 (opcional)"
+    ],
+    "standardAccessories": [
+      { "id": "std-301", "name": "Adaptadores de conectores estándar", "price": 0, "image": "assets/accessories/connector-adapters.jpg" },
+      { "id": "std-302", "name": "Manguera de prueba de presión", "price": 0, "image": "assets/accessories/pressure-hose.jpg" },
+      { "id": "std-303", "name": "Cable inyector Bosch", "price": 0, "image": "assets/accessories/bosch-cable.jpg" },
+      { "id": "std-304", "name": "Cable inyector Delphi Euro 4/5", "price": 0, "image": "assets/accessories/delphi-cable.jpg" },
+      { "id": "std-305", "name": "Cable inyector Piezzo Bosch", "price": 0, "image": "assets/accessories/bosch-piezzo-cable.jpg" },
+      { "id": "std-306", "name": "Cable inyector Piezzo Siemens", "price": 0, "image": "assets/accessories/siemens-piezzo-cable.jpg" },
+      { "id": "std-307", "name": "Cable inyector Denso", "price": 0, "image": "assets/accessories/denso-cable.jpg" },
+      { "id": "std-308", "name": "Cable en Y de 2 pines", "price": 0, "image": "assets/accessories/y-joint-cable.jpg" },
+      { "id": "std-309", "name": "Cable válvula DRV", "price": 0, "image": "assets/accessories/drv-valve-cable.jpg" },
+      { "id": "std-310", "name": "Manguera de retroceso", "price": 0, "image": "assets/accessories/backleak-hose.jpg" },
+      { "id": "std-311", "name": "Adaptadores de retorno", "price": 0, "image": "assets/accessories/injector-return-adaptors.jpg" },
+      { "id": "std-312", "name": "Acoplamientos L 12–14 mm", "price": 0, "image": "assets/accessories/couplings.jpg" },
+      { "id": "std-313", "name": "Llave de montaje de ranura", "price": 0, "image": "assets/accessories/mounting-key.jpg" }
+    ],
+    "optionalAccessories": [
+      { "id": "opt-301", "name": "Bridas de conexión bomba CR", "price": 180, "image": "assets/accessories/pump-flanges.jpg" },
+      { "id": "opt-302", "name": "Bridas bomba lubricante CR", "price": 150, "image": "assets/accessories/lubricant-flanges.jpg" },
+      { "id": "opt-303", "name": "Copas bomba CR", "price": 120, "image": "assets/accessories/pump-couplings.jpg" },
+      { "id": "opt-304", "name": "Mangueras de transferencia y fugas", "price": 90, "image": "assets/accessories/transfer-hoses.jpg" },
+      { "id": "opt-305", "name": "Cable sensor de velocidad", "price": 70, "image": "assets/accessories/speed-sensor-cable.jpg" },
+      { "id": "opt-306", "name": "Adaptadores de medida de transferencia", "price": 110, "image": "assets/accessories/transfer-adaptors.jpg" },
+      { "id": "opt-307", "name": "Adaptadores de tiro CuPlin", "price": 85, "image": "assets/accessories/cuplin-pull-adaptors.jpg" },
+      { "id": "opt-308", "name": "Llave CuPlin", "price": 60, "image": "assets/accessories/cuplin-key.jpg" },
+      { "id": "opt-309", "name": "Varillas CuPlin", "price": 95, "image": "assets/accessories/cuplin-shafts.jpg" }
+    ]
+  },
+  {
+    "id": "cripump-2400",
+    "name": "CRIPUMP-2400 Test Bench",
+    "type": "Injector + Pump (4 channels)",
+    "description": "Banco de pruebas con 4 canales de inyectores + sistema de prueba de bombas. Ideal para talleres de alto volumen.",
+    "image": "assets/machines/cripump-2400.jpg",
+    "weight": "550 kg",
+    "dimensions": { "width": 170, "height": 150, "length": 75 },
+    "pressureRange": "200–2500 bar",
+    "testTime": "< 8 minutos",
+    "temperatureControl": "Manual o automático (±1°C)",
+    "channels": 4,
+    "compatibleInjectors": [
+      "Bosch 110 CRI", "Bosch 120 CRIN (opcional)",
+      "Delphi", "Delphi Piezzo", "Delphi Volvo Smart (opcional)",
+      "Delphi DAF Smart (opcional)", "Delphi Mercedes Smart (opcional)",
+      "Denso", "Denso Piezzo", "Siemens Piezzo",
+      "Cummins QSK (opcional)", "Cummins ISX CR (opcional)",
+      "Cummins ISL (opcional)", "Cummins ISG (opcional)",
+      "Cummins India (opcional)", "L'Orange (opcional)",
+      "L'Orange MTU (opcional)", "CAT-PERKINS C4.2–C9.3 (opcional)"
+    ],
+    "compatiblePumps": [
+      "Bosch CP1–CP4", "Bosch CP2/CPN5/CB18/CB28 (opcional)",
+      "Delphi DFP1–DFP7", "Delphi DFP5/DFP8 (opcional)",
+      "Denso HP3–HP4", "Denso HP0–HP7 (opcional)",
+      "Siemens Continental VDO", "Siemens DHP1.1 (opcional)",
+      "Cummins ISX Delphi (opcional)", "Cummins N11–N14 Bosch (opcional)",
+      "CAT-PERKINS C4.4–C6.6 (opcional)"
+    ],
+    "standardAccessories": [
+      { "id": "std-401", "name": "Adaptadores de conectores estándar", "price": 0, "image": "assets/accessories/connector-adapters.jpg" },
+      { "id": "std-402", "name": "Manguera de prueba de presión", "price": 0, "image": "assets/accessories/pressure-hose.jpg" },
+      { "id": "std-403", "name": "Cable inyector Bosch", "price": 0, "image": "assets/accessories/bosch-cable.jpg" },
+      { "id": "std-404", "name": "Cable inyector Delphi Euro 4/5", "price": 0, "image": "assets/accessories/delphi-cable.jpg" },
+      { "id": "std-405", "name": "Cable inyector Piezzo Bosch", "price": 0, "image": "assets/accessories/bosch-piezzo-cable.jpg" },
+      { "id": "std-406", "name": "Cable inyector Piezzo Siemens", "price": 0, "image": "assets/accessories/siemens-piezzo-cable.jpg" },
+      { "id": "std-407", "name": "Cable inyector Denso", "price": 0, "image": "assets/accessories/denso-cable.jpg" },
+      { "id": "std-408", "name": "Cable en Y de 2 pines", "price": 0, "image": "assets/accessories/y-joint-cable.jpg" },
+      { "id": "std-409", "name": "Cable válvula DRV", "price": 0, "image": "assets/accessories/drv-valve-cable.jpg" },
+      { "id": "std-410", "name": "Manguera de retroceso", "price": 0, "image": "assets/accessories/backleak-hose.jpg" },
+      { "id": "std-411", "name": "Adaptadores de retorno", "price": 0, "image": "assets/accessories/injector-return-adaptors.jpg" },
+      { "id": "std-412", "name": "Acoplamientos L 12–14 mm", "price": 0, "image": "assets/accessories/couplings.jpg" },
+      { "id": "std-413", "name": "Llave de montaje de ranura", "price": 0, "image": "assets/accessories/mounting-key.jpg" }
+    ],
+    "optionalAccessories": [
+      { "id": "opt-401", "name": "Bridas de conexión bomba CR", "price": 180, "image": "assets/accessories/pump-flanges.jpg" },
+      { "id": "opt-402", "name": "Bridas bomba lubricante CR", "price": 150, "image": "assets/accessories/lubricant-flanges.jpg" },
+      { "id": "opt-403", "name": "Copas bomba CR", "price": 120, "image": "assets/accessories/pump-couplings.jpg" },
+      { "id": "opt-404", "name": "Mangueras de transferencia y fugas", "price": 90, "image": "assets/accessories/transfer-hoses.jpg" },
+      { "id": "opt-405", "name": "Cable sensor de velocidad", "price": 70, "image": "assets/accessories/speed-sensor-cable.jpg" },
+      { "id": "opt-406", "name": "Adaptadores de medida de transferencia", "price": 110, "image": "assets/accessories/transfer-adaptors.jpg" },
+      { "id": "opt-407", "name": "Adaptadores de tiro CuPlin", "price": 85, "image": "assets/accessories/cuplin-pull-adaptors.jpg" },
+      { "id": "opt-408", "name": "Llave CuPlin", "price": 60, "image": "assets/accessories/cuplin-key.jpg" },
+      { "id": "opt-409", "name": "Varillas CuPlin", "price": 95, "image": "assets/accessories/cuplin-shafts.jpg" }
+    ]
+  },
+  {
+    "id": "cripump-2700",
+    "name": "CRPUMP-2700 Test Bench",
+    "type": "Common Rail Pump Only",
+    "description": "Banco de pruebas exclusivo para bombas Common Rail. Sistema plug-and-play.",
+    "image": "assets/machines/cripump-2700.jpg",
+    "weight": "500 kg",
+    "dimensions": { "width": 140, "height": 150, "length": 75 },
+    "temperatureControl": "Manual o automático (±1°C)",
+    "compatiblePumps": [
+      "Bosch CP1–CP4", "Bosch CP2/CPN5/CB18/CB28 (opcional)",
+      "Delphi DFP1–DFP7", "Delphi DFP5/DFP8 (opcional)",
+      "Denso HP3–HP4", "Denso HP0–HP7 (opcional)",
+      "Siemens Continental VDO", "Siemens DHP1.1 (opcional)",
+      "Cummins ISX Delphi (opcional)", "Cummins N11–N14 Bosch (opcional)",
+      "CAT-PERKINS C4.4–C6.6 (opcional)"
+    ],
+    "standardAccessories": [],
+    "optionalAccessories": [
+      { "id": "opt-501", "name": "Bridas de conexión bomba CR", "price": 180, "image": "assets/accessories/pump-flanges.jpg" },
+      { "id": "opt-502", "name": "Bridas bomba lubricante CR", "price": 150, "image": "assets/accessories/lubricant-flanges.jpg" },
+      { "id": "opt-503", "name": "Copas bomba CR", "price": 120, "image": "assets/accessories/pump-couplings.jpg" },
+      { "id": "opt-504", "name": "Mangueras de transferencia y fugas", "price": 90, "image": "assets/accessories/transfer-hoses.jpg" },
+      { "id": "opt-505", "name": "Cable sensor de velocidad", "price": 70, "image": "assets/accessories/speed-sensor-cable.jpg" },
+      { "id": "opt-506", "name": "Adaptadores de medida de transferencia", "price": 110, "image": "assets/accessories/transfer-adaptors.jpg" },
+      { "id": "opt-507", "name": "Adaptadores de tiro CuPlin", "price": 85, "image": "assets/accessories/cuplin-pull-adaptors.jpg" },
+      { "id": "opt-508", "name": "Llave CuPlin", "price": 60, "image": "assets/accessories/cuplin-key.jpg" },
+      { "id": "opt-509", "name": "Varillas CuPlin", "price": 95, "image": "assets/accessories/cuplin-shafts.jpg" }
+    ]
+  },
+  {
+    "id": "unit-2500",
+    "name": "UNIT-2500 Test Bench",
+    "type": "Unit Injector (EUI)",
+    "description": "Para inyectores unitarios (EUI). Diseñado para pruebas de alto nivel con Cambox especial.",
+    "image": "assets/machines/unit-2500.jpg",
+    "weight": "450 kg",
+    "dimensions": { "width": 125, "height": 150, "length": 75 },
+    "temperatureControl": "Manual o automático (±1°C)",
+    "compatibleInjectors": [
+      "Bosch EURO 2–5", "Delphi EURO 2–5", "Cummins ISX/N14/M11",
+      "CAT C10/C11/C13/C15/C18", "Detroit S60/S92", "VW Piezzo"
+    ],
+    "standardAccessories": [
+      { "id": "std-601", "name": "Pipe inyector", "price": 0, "image": "assets/accessories/unit-injector-pipe.jpg" },
+      { "id": "std-602", "name": "Cable en horquilla", "price": 0, "image": "assets/accessories/fork-cable.jpg" },
+      { "id": "std-603", "name": "Cable VW (Bosch)", "price": 0, "image": "assets/accessories/vw-bosch-cable.jpg" },
+      { "id": "std-604", "name": "Cable VW (Piezzo)", "price": 0, "image": "assets/accessories/vw-piezzo-cable.jpg" },
+      { "id": "std-605", "name": "Cable de 4 pines", "price": 0, "image": "assets/accessories/4pin-cable.jpg" }
+    ],
+    "optionalAccessories": []
+  },
+  {
+    "id": "unit-2600",
+    "name": "UNIT-2600 Test Bench",
+    "type": "Unit Injector + EURO 6",
+    "description": "Soporta inyectores Delphi EURO 6 y Volvo Smart con sistema de riel.",
+    "image": "assets/machines/unit-2600.jpg",
+    "weight": "450 kg",
+    "dimensions": { "width": 125, "height": 150, "length": 75 },
+    "temperatureControl": "Manual o automático (±1°C)",
+    "compatibleInjectors": [
+      "Bosch EURO 2–5", "Delphi EURO 2–6", "Cummins ISX/N14/M11",
+      "CAT C10/C11/C13/C15/C18", "Detroit S60/S92", "VW Piezzo", "Volvo EURO 6 Smart"
+    ],
+    "standardAccessories": [
+      { "id": "std-701", "name": "Pipe inyector", "price": 0, "image": "assets/accessories/unit-injector-pipe.jpg" },
+      { "id": "std-702", "name": "Cable en horquilla", "price": 0, "image": "assets/accessories/fork-cable.jpg" },
+      { "id": "std-703", "name": "Cable VW (Bosch)", "price": 0, "image": "assets/accessories/vw-bosch-cable.jpg" },
+      { "id": "std-704", "name": "Cable VW (Piezzo)", "price": 0, "image": "assets/accessories/vw-piezzo-cable.jpg" },
+      { "id": "std-705", "name": "Cable de 4 pines", "price": 0, "image": "assets/accessories/4pin-cable.jpg" }
+    ],
+    "optionalAccessories": []
+  },
+  {
+    "id": "heui-2800",
+    "name": "HEUI-2800 Test Bench",
+    "type": "HEUI Injector System",
+    "description": "Para inyectores HEUI (Hydraulic Electronic Unit Injector). Diseño vertical con carcasa acristalada.",
+    "image": "assets/machines/heui-2800.jpg",
+    "weight": "500 kg",
+    "dimensions": { "width": 76, "height": 157, "length": 123 },
+    "pressureRange": "Hasta 300 bar",
+    "temperatureControl": "Sistema de enfriamiento y calefacción eficiente",
+    "compatibleInjectors": [
+      "CAT C7", "CAT C9", "CAT 3126", "CAT 3408", "Ford Powerstroke", "Isuzu"
+    ],
+    "standardAccessories": [],
+    "optionalAccessories": []
+  },
+  {
+    "id": "pt-969",
+    "name": "PT-969 Test Bench",
+    "type": "Mechanical Pump",
+    "description": "Banco de pruebas para bombas mecánicas diesel de todas las generaciones.",
+    "image": "assets/machines/pt-969.jpg",
+    "weight": "600 kg",
+    "dimensions": { "width": 200, "height": 180, "length": 80 },
+    "features": [
+      "Control de temperatura (±1°C)",
+      "Control de carrera (10–1000)",
+      "Regulador de presión multi-función",
+      "Sistema Turbo Air (2.5 bar)",
+      "Fuente de alimentación 12/24V",
+      "Motor AC con control de velocidad",
+      "Botones programables F1–F7"
+    ],
+    "standardAccessories": [],
+    "optionalAccessories": []
+  }
+]
