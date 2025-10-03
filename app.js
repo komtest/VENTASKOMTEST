@@ -428,6 +428,7 @@ function showTechSheet(machine) {
         ` : ''}
 
         <div class="footer">
+        <div style="margin-top: 30px; text-align: center; font-size: 12px; color: #666;">
             <p><strong>KOMTEST AMERICA</strong></p>
             <p>Diesel Injection Service | Miguel Sanchez | +593 99 341 4331</p>
             <p>Via Quevedo km 2 1/2, Santo Domingo de los Tsachilas, Ecuador</p>
@@ -679,4 +680,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 });
+
 
